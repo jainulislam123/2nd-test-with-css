@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+/* reset */
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+:root{
+    --primary-text-color:#183b56;
+    --secondary-text-color:#575592;
+    --accent-color:#2294ed;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section:12px;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color:var(--primary-text-color);
+
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+p{
+    font-family:'Roboto','sans-serif';
+    font-size: 1.25rem;
+    color:var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.flex{
+    display: flex;
+    align-items: center;
+   
+    
+}
+   
+ul{
+    list-style: none;
+    justify-content: center;
+}
+/* utility clasess */
+.smallboldtext{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding:var(--padding-inline-section);
+}
+.hoverLink{
+    color: var(--primary-text-color);
+    transition: all .02s;
+}
+.hoverLink:hover{
+    color: var(--accent-color);
+}
+/* top banner */
+.topBanner{
+    background-color: #4dadf7;
+    background-image: url('https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b7e4d7973addf81ed1f4010_pattern.png');
+    background-size: 300px;
+}
+.bannerText{
+    color:white;
+    padding:0 px 30px;
+    text-align: center;
+}
+.comapnyLogo img{
+    width:300px;
+}
+/* nav */
+.mainNav{
+    justify-content:space-between;
+    margin-top: -20px;
+}
+.navlinks{
+    flex-basis: 730px;
+}
+.navlinks ul{
+    justify-content:end;
+    gap:20px;
+}
+.secondaryBtn{
+background-color:var(--accent-color);
+border-radius: 6px;
+font-weight: 500;
+color: white !important;
+padding: 12px 24px;
+box-shadow: 0 0 2px var(--secondary-text-color);
+transition:0.2s ease-in-out;
+}
+.secondaryBtn:hover{
+    background-color: var(--accent-color-dark);
+}
+.primaryBtn{
+   border: 0.5 solid var(--primary-text-color);
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition:0.2s ease-in-out;
+}
+.primaryBtn:hover{
+    color: var(--accent-color);
+    
+}
+/* HeaderSection */
+header{
+    padding: 50px 20px 0;
+    margin-top: -69px;
+
+}
+.headerSection{
+    justify-content: space-between;
+    gap:60px;
+    flex-wrap: wrap;
+}
+.hearderLeft {
+    width: 500px;
+}
+.hearderRight img{
+    width:600px;
+}
+
+.hearderLeft h1{
+    padding:8px 10px;
+    margin-top: -33px;
+}
+.hearderLeft p{
+    padding: 10px 47px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: -38px;
+    font-size: 23px;
+   
+    
+}
+.getStart{
+    margin-top: 20px;
+}
+/* companies */
+.text{
+    text-align: center;
+    font-weight: 700;
+}
+.logos{
+    text-align: center;
+}
+.flex li img{
+    width:140px;
+   
+}
+.logos ul{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* featureSection */
+.featuresection{
+    background-image:url('https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5af98b9f779b5a7d0a80351e_Oval%201.svg');
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+    background-size: 800px;
+    margin-top: 20px;
+}
+.featureHeader{
+    text-align: center;
+    margin-top: 45px;
+}
+.featureHeader h2{
+    padding: 25px;
+}
+.box{
+    width: 900px;
+    flex-wrap: wrap;
+    margin: auto;
+
+
+}
+.boxitem{
+    /* border: 1px solid red; */
+    width: 256px;
+    justify-content: space-between;
+    margin: 20px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    align-items: center; 
+    text-align: center;
+}
+.fa{
+    padding: 15px;
+    background-color: #1d69a3;
+    border-radius: 50%;
+    margin-top:12px
+}
+.fa1{
+    background-color: #575592 !important;
+}
+.fa2{
+    background-color:red;
+}
+.fa3{
+    background-color: yellow !important;
+}
+.fa4{
+    background-color:green !important;
+}
+.fa6{
+    background-color:rgb(211, 88, 16) !important;
+}
+
+.contenLeft img{
+    max-width: 85%;
+    padding: 2%;
+}
+.contenRight{
+ width: 560px;
+ margin-left: -32px;
+ padding:20px;
+}
+.contenRight p{
+width:500px;
+font-size: 22px;
+text-align: left;
+padding: 0 30px 0;
+margin-left: -28px;
+}
+.Bigimg img{
+width:120px;
+padding: 20px 0 10px;
+}
+.CheifImg img{
+    width:50px;
+    
+}
+.big{
+    padding:0 20px 0;
+}
+.contentrightSub2{
+    background-image: url('https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5af9a44aa9b84e59b0b95121_quote.svg');
+    background-repeat: no-repeat;
+    padding:0 53px 10px;
+    margin-left:-45px
+}
+.cheifname{
+    padding-left: 14px;
+}
